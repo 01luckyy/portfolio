@@ -132,7 +132,7 @@
   }
   
   .navbar .logo a {
-    color: #fff;
+    color: #dac7f3;
     font-size: 35px;
     font-weight: 600;
   }
@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?horror") no-repeat
+    background: url("https://source.unsplash.com/720x600/?creepy") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -239,11 +239,19 @@
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    background: linear-gradient(135deg, #f3f3f3de, #ede6e6, hsl(0, 100%, 33%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
   }
   
   .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
+    background: linear-gradient(135deg, #be0202, #ffffff, hsla(95, 97%, 30%, 0.385));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
   }
   
   /* Linear Gradient */
@@ -258,7 +266,7 @@
   .home .home-content a {
     display: inline-block;
     background: #1e3551;
-    color: #fff;
+    color: #dacece;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -482,7 +490,7 @@
   }
   
   .skills-content .right .python::before {
-    width: 0.1%;
+    width: 70.1%;
   }
   
   .skills-content .right .html::before {
@@ -498,11 +506,11 @@
   }
   
   .skills-content .right .bootstraps::before {
-    width: 0.1%;
+    width: 50.1%;
   }
   
   .skills-content .right .django::before {
-    width: 0.1%;
+    width: 60%;
   }
   
 /* removed */
